@@ -45,7 +45,7 @@
     display: grid;
     place-items: center;
     padding: 32px;
-    background-color: #B1CFC8;
+    background-color: #00c08a;
     transform: rotateY(180deg);
   }
   .flip-card:hover .flip-card-inner {
