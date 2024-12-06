@@ -125,8 +125,8 @@ if( ! empty( $_POST['email'] ) ) {
 			// Email Receiver Addresses
 			$toemailaddresses = array();
 			$toemailaddresses[] = array(
-				'email' => $receiver_email, // Your Email Address
-				'name' 	=> $receiver_name // Your Name
+				'sistemas@komunah.mx' => $receiver_email, // Your Email Address
+				'name' 	=> $receiver_name, // Your Name
 			);
 
 			require 'phpmailer/Exception.php';
