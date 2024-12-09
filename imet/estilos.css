@@ -4,13 +4,15 @@
     padding-bottom: 60px;
     justify-content: center;
     align-items: center;
+
   }
-  
+
   /* FLIP CARD */
   .flip-card {
     width: 310px;
     height: 290px;
     perspective: 2000px;
+  
   }
   .flip-card-inner {
     position: relative;
