@@ -4,13 +4,15 @@
     padding-bottom: 60px;
     justify-content: center;
     align-items: center;
+
   }
-  
+
   /* FLIP CARD */
   .flip-card {
     width: 310px;
     height: 290px;
     perspective: 2000px;
+  
   }
   .flip-card-inner {
     position: relative;
@@ -45,10 +47,12 @@
     display: grid;
     place-items: center;
     padding: 32px;
-    background-color: #B1CFC8;
+    background-color: #00c08a !important;
     transform: rotateY(180deg);
   }
   .flip-card:hover .flip-card-inner {
     transform: rotateY(-180deg);
   }
+
+
   
